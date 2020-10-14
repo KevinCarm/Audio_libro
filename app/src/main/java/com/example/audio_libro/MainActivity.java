@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Metodo para determinar la horientacion de la pantalla
+     * @param index
+     */
     public void mostrarDetalle(int index) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         if (fragmentManager.findFragmentById(R.id.detalle_fragment) != null) {
